@@ -1,0 +1,92 @@
+
+git
+ 一、 git与github关系
+
+  git是一个对项目进行版本控制的技术  特点：分布式
+ 
+  SVN：特点：集中式
+
+  修改  一个功能模块由两个人开发
+
+  github代码托管平台:http://www.open-open.com/lib/view/open1420704561390.html
+
+
+ 管理git代码：用cli（命令行）,gui(图形界面)方式
+
+管理git工具：
+ github官方的github.：https://desktop.github.com/
+ 第三方git管理工具msysgit：https://git-for-windows.github.io/
+
+ cmder
+
+二、git常用命令
+
+   git初始化：git init  目的让git识别要管理的文件
+   查看当前状态：git status
+   
+   .gitignore:可添加要忽略的文件
+
+    添加文件：git add 文件名
+    添加所有文件：git add -A 【不推荐】
+
+
+    提交版本：git commit -m "说明"
+
+    查看工作与暂存的不同：git diff 文件名
+
+   查看commit次数:git log,git reflog
+
+
+   时间穿越到过去/未来： git reset --hard id
+
+
+  。。。。
+
+三、git上传到远程仓库
+
+   1.准备工作
+
+     第一步：告诉我是谁，我的邮箱是什么
+
+添加用户
+git config --global user.name "1410Fe.A"
+
+添加邮箱
+git config --global user.email "1410Fe@126.com"
+
+查看配置信息
+ git config --list
+
+  第二步：ssh生成公钥密钥对
+  
+   格式: ssh-keygen -t rsa -C "邮箱"
+   例如： ssh-keygen -t rsa -C "1410Fe@126.com"
+
+   
+id_rsa  密钥
+id_rsa.pub  公钥
+
+
+  第三步：测试是否连通
+
+   ssh -T git@github.com
+
+   2.推送工作
+
+
+    建立一个远程仓库  例如：h5pro
+
+    进行远程连接
+
+      格式： git remote add origin 仓库地址
+
+     例如： git remote add origin git@github.com:w3cteching/h5Pro.git
+
+
+
+    推送：git push -u origin master 
+
+
+
+
+
