@@ -1,0 +1,480 @@
+.rightAikanTitle {
+	width: 318px;
+	height: 39px;
+	background-position: left -110px;
+	overflow: hidden;
+	position: relative;
+}
+
+.rightAikan .aikanLine {
+	width: 1px;
+	height: 306px;
+	overflow: hidden;
+	background-position: right -35px;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	z-index: 2;
+}
+
+
+/*清除链接虚框*/
+
+
+/*a,area {blr:expression(this.onFocus=this.blur()) }  for IE 
+:focus {-moz-outline-style: none; }  for Firefox   
+*/
+
+.rightAikan .aikanGreen {
+	width: 7px;
+	height: 8px;
+	overflow: hidden;
+	background-position: -800px -210px;
+	position: absolute;
+	top: 44px;
+	left: -4px;
+	z-index: 3;
+}
+
+.rightAikan .aikanBlue {
+	width: 7px;
+	height: 8px;
+	overflow: hidden;
+	background-position: -800px -230px;
+	position: absolute;
+	left: -4px;
+	z-index: 3;
+}
+
+#dajiaikan1 {
+	height: 251px;
+	overflow: hidden;
+}
+
+#dajiaikan2 {
+	height: 268px;
+	overflow: hidden;
+}
+
+#dajiaikan3 {
+	height: 268px;
+	overflow: hidden;
+}
+
+#aikanTab01 .hd {
+	height: 21px;
+}
+
+#aikanTimeBefore01 {
+	margin-top: 0;
+	margin-left: 12px;
+}
+
+#aikanTimeBefore02 {
+	margin-left: 12px;
+}
+
+#aikanTimeBefore03 {
+	margin-left: 12px;
+}
+
+#djakRefreshLayout {
+	width: 12px;
+	height: 12px;
+	float: right;
+}
+
+#aikanCon01 dt,
+#aikanCon02 dt,
+#aikanCon03 dt {
+	width: 288px;
+	padding: 0 15px;
+}
+
+#aikanCon01 dd,
+#aikanCon02 dd,
+#aikanCon03 dd {
+	width: 288px;
+	padding: 0 15px;
+}
+
+.mininav {
+	width: 100%;
+	height: 28px;
+	background-color: #fdfdfd;
+	background-position: top left;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #ebebeb;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+
+.mininavInner {
+	width: 1000px;
+	height: 28px;
+	margin: 0 auto;
+}
+
+.mininavInner a {
+	color: #666;
+}
+
+.mininavInner a:hover {
+	color: #2d374b;
+	text-decoration: none;
+}
+
+.mininavInner a.login {
+	width: 70px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.login:hover {
+	background-position: -450px -160px;
+}
+
+.mininavInner a.weiboLogin {
+	width: 30px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.weiboLogin:hover {
+	background-position: -50px -250px;
+}
+
+.mininavInner a.qzoneLogin {
+	width: 30px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.qzoneLogin:hover {
+	background-position: -150px -250px;
+}
+
+.mininavInner a.mailLogin {
+	width: 30px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.mailLogin:hover {
+	background-position: -250px -250px;
+}
+
+.mininavInner a.pengyouLogin {
+	width: 28px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.pengyouLogin:hover {
+	background-position: -350px -250px;
+}
+
+.mininavInner a.dingyueLogin {
+	width: 32px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.dingyueLogin:hover {
+	background-position: right -549px;
+}
+
+.mininavInner a.ilikeLogin {
+	width: 32px;
+	height: 28px;
+	display: block;
+	float: right;
+}
+
+.mininavInner a.ilikeLogin:hover {
+	background-position: right -549px;
+}
+
+.mininavInner .mininavLeft {
+	float: left;
+	height: 28px;
+	color: #c7c7c7;
+}
+
+.mininavInner .mininavLeft .mobileIcon {
+	margin-left: 3px;
+	padding-left: 12px;
+	background-position: left top;
+}
+
+.mininavInner .mininavLeft .mobileIcon:hover {
+	background-position: left -30px;
+}
+
+.mininavInner .mininavLeft .wap {
+	margin: 0 10px 0 2px;
+}
+
+.mininavInner .mininavLeft .ipadIcon {
+	margin: 0 11px 0 15px;
+	padding-left: 13px;
+	background-position: left -60px;
+}
+
+.mininavInner .mininavLeft .ipadIcon:hover {
+	background-position: left -90px;
+}
+
+.mininavInner .mininavLeft .forIndex {
+	margin: 0 12px 0 10px;
+}
+
+.mininavInner .mininavLeft .qqMap {
+	margin: 0 10px 0 6px;
+}
+
+.mininavInner .mininavLeft .qqHelp {
+	margin-left: 8px;
+	padding-right: 11px;
+	background-position: right -115px;
+}
+
+.mininavInner .mininavLeft .helpHover {
+	margin-left: 7px;
+	padding-right: 11px;
+	background-position: right -145px;
+}
+
+#qqHelp {
+	position: relative;
+	width: 50px;
+	height: 21px;
+	padding-top: 8px;
+	z-index: 10000;
+}
+
+#qqHelp.qqHelpHover {
+	width: 48px;
+	border-left: 1px solid #c7c7c7;
+	border-right: 1px solid #c7c7c7;
+}
+
+#qqHelpContent {
+	width: 82px;
+	height: 155px;
+	border: 1px solid #c7c7c7;
+	border-top: 0;
+	background-color: #fff;
+	background-position: -1px -430px;
+	padding: 6px 0px;
+	position: absolute;
+	top: 28px;
+	left: -1px;
+}
+
+#qqHelpContent li {
+	width: 82px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	text-align: center;
+	color: #666;
+}
+
+#qqHelpContent li a {
+	width: 82px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	display: block;
+	color: #666;
+}
+
+#qqHelpContent li a:hover {
+	background: #f4f8fc;
+	color: #2d374b;
+}
+
+.mininavInner .mininavRight {
+	float: right;
+	color: #c7c7c7;
+	line-height: 28px;
+}
+
+.mininavInner .mininavRight a {
+	color: #666;
+}
+
+.mininavInner .mininavRight .qqNameLayout {
+	margin-right: 4px;
+}
+
+.mininavInner .mininavRight .qqName {
+	margin-right: 12px;
+	color: #666;
+	float: left;
+}
+
+.mininavInner .mininavRight .weibo {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 17px;
+}
+
+.mininavInner .mininavRight .weibo:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .mininavRight .qzone {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 22px;
+}
+
+.mininavInner .mininavRight .qzone:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .mininavRight .mail {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 19px;
+}
+
+.mininavInner .mininavRight .mail:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .mininavRight .pengyou {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 20px;
+}
+
+.mininavInner .mininavRight .pengyou:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .mininavRight .dingyue {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 20px;
+}
+
+.mininavInner .mininavRight .dingyue:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .mininavRight .ilike {
+	font-family: Tahoma, "宋体";
+	padding: 0 7px;
+	display: block;
+	height: 28px;
+	float: left;
+	text-indent: 20px;
+}
+
+.mininavInner .mininavRight .ilike:hover {
+	color: #fff;
+	background-color: #458fce;
+}
+
+.mininavInner .loginSmartBox {
+	width: 120px;
+	background: #fffbef;
+	position: absolute;
+	top: 28px;
+	z-index: 100;
+}
+
+.mininavInner .loginSmartTop {
+	width: 120px;
+	height: 3px;
+	overflow: hidden;
+	background-position: -350px -210px;
+}
+
+.mininavInner .loginSmartBottom {
+	width: 120px;
+	height: 3px;
+	overflow: hidden;
+	background-position: -350px -230px;
+}
+
+.mininavInner .loginSmartContent {
+	width: 118px;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+
+.mininavInner .loginSmartInner {
+	width: 116px;
+	border-left: 1px solid #f4d9a4;
+	border-right: 1px solid #f4d9a4;
+}
+
+.mininavInner .loginSmartInner ul {
+	width: 100%;
+	padding: 2px 0;
+}
+
+.mininavInner .loginSmartInner li {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	color: #666;
+	text-indent: 8px;
+}
+
+.mininavInner .loginSmartInner li a {
+	color: #666;
+}
+
+.mininavInner .loginSmartInner li a:hover span {
+	color: #cd0200;
+}
+
+.mininavInner .loginSmartInner li a span,
+.mininavInner .loginSmartInner li a:hover span {
+	font-family: Tahoma;
+}
+
+#dingyueIcon {
+	position: relative;
+}
+
+#ilikeIcon {
+	position: relative;
+}
+
+#mailIcon {
+	position: relative;
+}
