@@ -1,92 +1,125 @@
 
 git
- Ò»¡¢ gitÓëgithub¹ØÏµ
+ ä¸€ã€ gitä¸githubå…³ç³»
 
-  gitÊÇÒ»¸ö¶ÔÏîÄ¿½øĞĞ°æ±¾¿ØÖÆµÄ¼¼Êõ  ÌØµã£º·Ö²¼Ê½
+  gitæ˜¯ä¸€ä¸ªå¯¹é¡¹ç›®è¿›è¡Œç‰ˆæœ¬æ§åˆ¶çš„æŠ€æœ¯  ç‰¹ç‚¹ï¼šåˆ†å¸ƒå¼
  
-  SVN£ºÌØµã£º¼¯ÖĞÊ½
+  SVNï¼šç‰¹ç‚¹ï¼šé›†ä¸­å¼
 
-  ĞŞ¸Ä  Ò»¸ö¹¦ÄÜÄ£¿éÓÉÁ½¸öÈË¿ª·¢
+  ä¿®æ”¹  ä¸€ä¸ªåŠŸèƒ½æ¨¡å—ç”±ä¸¤ä¸ªäººå¼€å‘
 
-  github´úÂëÍĞ¹ÜÆ½Ì¨:http://www.open-open.com/lib/view/open1420704561390.html
+  githubä»£ç æ‰˜ç®¡å¹³å°:http://www.open-open.com/lib/view/open1420704561390.html
 
 
- ¹ÜÀígit´úÂë£ºÓÃcli£¨ÃüÁîĞĞ£©,gui(Í¼ĞÎ½çÃæ)·½Ê½
+ ç®¡ç†gitä»£ç ï¼šç”¨cliï¼ˆå‘½ä»¤è¡Œï¼‰,gui(å›¾å½¢ç•Œé¢)æ–¹å¼
 
-¹ÜÀígit¹¤¾ß£º
- github¹Ù·½µÄgithub.£ºhttps://desktop.github.com/
- µÚÈı·½git¹ÜÀí¹¤¾ßmsysgit£ºhttps://git-for-windows.github.io/
+ç®¡ç†gitå·¥å…·ï¼š
+ githubå®˜æ–¹çš„github.ï¼šhttps://desktop.github.com/
+ ç¬¬ä¸‰æ–¹gitç®¡ç†å·¥å…·msysgitï¼šhttps://git-for-windows.github.io/
 
  cmder
 
-¶ş¡¢git³£ÓÃÃüÁî
+äºŒã€gitå¸¸ç”¨å‘½ä»¤
 
-   git³õÊ¼»¯£ºgit init  Ä¿µÄÈÃgitÊ¶±ğÒª¹ÜÀíµÄÎÄ¼ş
-   ²é¿´µ±Ç°×´Ì¬£ºgit status
+   gitåˆå§‹åŒ–ï¼šgit init  ç›®çš„è®©gitè¯†åˆ«è¦ç®¡ç†çš„æ–‡ä»¶
+   æŸ¥çœ‹å½“å‰çŠ¶æ€ï¼šgit status
    
-   .gitignore:¿ÉÌí¼ÓÒªºöÂÔµÄÎÄ¼ş
+   .gitignore:å¯æ·»åŠ è¦å¿½ç•¥çš„æ–‡ä»¶
 
-    Ìí¼ÓÎÄ¼ş£ºgit add ÎÄ¼şÃû
-    Ìí¼ÓËùÓĞÎÄ¼ş£ºgit add -A ¡¾²»ÍÆ¼ö¡¿
-
-
-    Ìá½»°æ±¾£ºgit commit -m "ËµÃ÷"
-
-    ²é¿´¹¤×÷ÓëÔİ´æµÄ²»Í¬£ºgit diff ÎÄ¼şÃû
-
-   ²é¿´commit´ÎÊı:git log,git reflog
+    æ·»åŠ æ–‡ä»¶ï¼šgit add æ–‡ä»¶å
+    æ·»åŠ æ‰€æœ‰æ–‡ä»¶ï¼šgit add -A ã€ä¸æ¨èã€‘
 
 
-   Ê±¼ä´©Ô½µ½¹ıÈ¥/Î´À´£º git reset --hard id
+    æäº¤ç‰ˆæœ¬ï¼šgit commit -m "è¯´æ˜"
+
+    æŸ¥çœ‹å·¥ä½œä¸æš‚å­˜çš„ä¸åŒï¼šgit diff æ–‡ä»¶å
+
+   æŸ¥çœ‹commitæ¬¡æ•°:git log,git reflog
 
 
-  ¡£¡£¡£¡£
+   æ—¶é—´ç©¿è¶Šåˆ°è¿‡å»/æœªæ¥ï¼š git reset --hard id
 
-Èı¡¢gitÉÏ´«µ½Ô¶³Ì²Ö¿â
 
-   1.×¼±¸¹¤×÷
+  ã€‚ã€‚ã€‚ã€‚
 
-     µÚÒ»²½£º¸æËßÎÒÊÇË­£¬ÎÒµÄÓÊÏäÊÇÊ²Ã´
+ä¸‰ã€gitä¸Šä¼ åˆ°è¿œç¨‹ä»“åº“
 
-Ìí¼ÓÓÃ»§
+   1.å‡†å¤‡å·¥ä½œ
+
+     ç¬¬ä¸€æ­¥ï¼šå‘Šè¯‰æˆ‘æ˜¯è°ï¼Œæˆ‘çš„é‚®ç®±æ˜¯ä»€ä¹ˆ
+
+æ·»åŠ ç”¨æˆ·
 git config --global user.name "1410Fe.A"
 
-Ìí¼ÓÓÊÏä
+æ·»åŠ é‚®ç®±
 git config --global user.email "1410Fe@126.com"
 
-²é¿´ÅäÖÃĞÅÏ¢
+æŸ¥çœ‹é…ç½®ä¿¡æ¯
  git config --list
 
-  µÚ¶ş²½£ºsshÉú³É¹«Ô¿ÃÜÔ¿¶Ô
+  ç¬¬äºŒæ­¥ï¼šsshç”Ÿæˆå…¬é’¥å¯†é’¥å¯¹
   
-   ¸ñÊ½: ssh-keygen -t rsa -C "ÓÊÏä"
-   ÀıÈç£º ssh-keygen -t rsa -C "1410Fe@126.com"
+   æ ¼å¼: ssh-keygen -t rsa -C "é‚®ç®±"
+   ä¾‹å¦‚ï¼š ssh-keygen -t rsa -C "1410Fe@126.com"
 
    
-id_rsa  ÃÜÔ¿
-id_rsa.pub  ¹«Ô¿
+id_rsa  å¯†é’¥
+id_rsa.pub  å…¬é’¥
 
 
-  µÚÈı²½£º²âÊÔÊÇ·ñÁ¬Í¨
+  ç¬¬ä¸‰æ­¥ï¼šæµ‹è¯•æ˜¯å¦è¿é€š
 
    ssh -T git@github.com
 
-   2.ÍÆËÍ¹¤×÷
+   2.æ¨é€å·¥ä½œ
 
 
-    ½¨Á¢Ò»¸öÔ¶³Ì²Ö¿â  ÀıÈç£ºh5pro
+    å»ºç«‹ä¸€ä¸ªè¿œç¨‹ä»“åº“  ä¾‹å¦‚ï¼šh5pro
 
-    ½øĞĞÔ¶³ÌÁ¬½Ó
+    è¿›è¡Œè¿œç¨‹è¿æ¥
 
-      ¸ñÊ½£º git remote add origin ²Ö¿âµØÖ·
+      æ ¼å¼ï¼š git remote add origin ä»“åº“åœ°å€
 
-     ÀıÈç£º git remote add origin git@github.com:w3cteching/h5Pro.git
-
-
-
-    ÍÆËÍ£ºgit push -u origin master 
+     ä¾‹å¦‚ï¼š git remote add origin git@github.com:w3cteching/h5Pro.git
 
 
 
+    æ¨é€ï¼šgit push -u origin master 
+
+====================================================================
+
+ ä¸€ã€ git åˆ†æ”¯ç®¡ç†  ***
+
+  masteråˆ†æ”¯ä¸»è¦ç”¨äºå‘å¸ƒäº§å“ç”¨çš„åˆ†æ”¯
+
+  åˆ†æ”¯ç®¡ç†ç›¸å…³å‘½ä»¤ï¼š
+
+  1. æŸ¥çœ‹åˆ†æ”¯ï¼šgit branch
+  2. åˆ é™¤åˆ†æ”¯ï¼šgit branch -d åˆ†æ”¯å  
+
+    ä¾‹å¦‚ï¼šgit branch -d dev
+
+  3. åˆ›å»ºåˆ†æ”¯ï¼š git branch åˆ†æ”¯å  
+
+     ä¾‹å¦‚ï¼š git branch dev
+
+  4. åˆ‡æ¢åˆ†æ”¯ï¼š git checkout åˆ†æ”¯å
+  
+    ä¾‹å¦‚ï¼š git checkout dev
+
+  5.å³åˆ›å»ºä¹Ÿåˆ‡æ¢åˆ†æ”¯çš„å‘½ä»¤ï¼šgit checkout -b æ–°åˆ†æ”¯å
+
+
+  6.åˆå¹¶åˆ†æ”¯  git merge è¦åˆå¹¶çš„åˆ†æ”¯ 
+
+     åˆå¹¶æ—¶å¦‚æœå‡ºç°å†²çªï¼Œæ‰‹åŠ¨è§£å†³
+
+
+
+    
+ 
+
+
+ äºŒã€git  tag   ***
 
 
