@@ -1,4 +1,4 @@
-
+﻿
 git
  一、 git与github关系
 
@@ -74,7 +74,6 @@ id_rsa.pub  公钥
    2.推送工作
 
 
-
     建立一个远程仓库  例如：h5pro
 
     进行远程连接
@@ -87,17 +86,8 @@ id_rsa.pub  公钥
 
     推送：git push -u origin master 
 
+====================================================================
 
-    建立一个远程仓库  例如：h5pro
-
-    进行远程连接
-
-      格式： git remote add origin 仓库地址
-
-     例如： git remote add origin git@github.com:w3cteching/h5Pro.git
-
-
- 
  一、 git 分支管理  ***
 
   master分支主要用于发布产品用的分支
@@ -124,6 +114,52 @@ id_rsa.pub  公钥
 
      合并时如果出现冲突，手动解决
 
- 二、git  tag   ***
+如果没有被合并分支要删除时：-D
+
+ git branch -D 分支名
+ git branch -d 分支名
+
+    保存现场：git stash
+
+    恢复现场：git stash pop
 
 
+  查看远程分支：git branch -r
+
+  将本地分支提交到远程: git push origin 本地分支名
+  删除远程分支: git push origin :远程分支名
+ 
+
+
+ 二、git  tag   *** 提交版本
+
+   查看：git tag
+   创建版本：  git tag 版本名 
+   将版本打在指定的提交id上： 创建版本：  git tag 版本名 提交id
+   将本地版本提交到远程: git push origin 本地版本名
+
+   删除版本：git tag -d 版本名
+   
+   删除远程版本： git push origin :refs/tags/版本名
+
+
+    例如：删除v0.0.1
+
+ git push origin :refs/tags/v0.0.1
+
+
+   克隆一个项目到本地: git clone git地址
+
+   与全球开发者开发项目流程：
+
+    1、先fork一个git项目
+    2.将fork的项目克隆到本地
+    3.add commit git push
+    4.发起pull request请求 ，请求对方看看我写的功能行吗???
+
+
+   git客户端
+
+
+   
+ 
